@@ -1,0 +1,32 @@
+{
+    "name": "dark-green-minimalist-theme",
+    "displayName": "Dark Green Minimalist Theme",
+    "description": "Dark theme with green minimalist color",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "dark-green-minimalist-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-green-minimalist-theme-color-theme.json"
+            }
+        ]
+    },
+
+    "galleryBanner": {
+        "color": "#367366",
+        "theme": "dark"
+    },
+    "repository": {
+        "type":"git",
+        "url": "https://github.com/drifaro/theme-vscode-dark-green-minimalist"
+    },
+    "icon": "assets/icon.png",
+    "publisher":"drifaro-theme"
+}
